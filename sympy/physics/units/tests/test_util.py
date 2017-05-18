@@ -2,10 +2,10 @@
 
 from __future__ import division
 
-from sympy import sstr, pi
+from sympy import sstr, sympify, Mul, Add, pi
 from sympy.physics.units import G
 
-from sympy import Add, Pow, Mul, sin, Tuple, sqrt, sympify
+from sympy import Pow, Tuple, sin
 from sympy.physics.units import coulomb
 from sympy.physics.units import hbar
 from sympy.physics.units import joule

@@ -17,7 +17,7 @@ from __future__ import division
 import collections
 
 from sympy.core.compatibility import reduce, string_types
-from sympy import sympify, Integer, Matrix, Symbol, S
+from sympy import S, sympify, Symbol, Matrix, Integer
 from sympy.core.expr import Expr
 
 
