@@ -1,4 +1,4 @@
-from sympy import sin, cos, pi, zeros, eye, ImmutableMatrix as Matrix
+from sympy.core.backend import sin, cos, pi, zeros, eye, ImmutableMatrix as Matrix
 from sympy.physics.vector import (ReferenceFrame, Vector, CoordinateSym,
                                   dynamicsymbols, time_derivative, express)
 

@@ -1,4 +1,5 @@
-from sympy import S, Integral, sin, cos, pi, sqrt, symbols
+from sympy import Integral
+from sympy.core.backend import sin, cos, pi, sqrt, symbols, S
 from sympy.physics.vector import Dyadic, Point, ReferenceFrame, Vector
 from sympy.physics.vector.functions import (cross, dot, express,
                                             time_derivative,
