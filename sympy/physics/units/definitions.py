@@ -1,4 +1,5 @@
-from sympy import pi, Rational, sqrt
+from sympy import sqrt
+from sympy.core.backend import pi, Rational
 from sympy.physics.units import Quantity
 from sympy.physics.units.dimensions import length, mass, force, energy, power, pressure, frequency, time, velocity, \
     impedance, voltage, conductance, capacitance, inductance, charge, magnetic_density, magnetic_flux, current, action, \
